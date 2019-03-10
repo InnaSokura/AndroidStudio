@@ -10,7 +10,7 @@ import android.widget.EditText;
 public class CreateMessageActivity extends AppCompatActivity {
 
     private String message;
-    final String TAG = "myLog";
+    final String TAG = "myLogs";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
