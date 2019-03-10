@@ -197,7 +197,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
             br.close();
         } catch (Exception e) {
-            Log.i("--- DB ---",e.getMessage());
+            Log.i("--- DB ----",e.getMessage());
         }
 
         // закрываем подключение к БД
