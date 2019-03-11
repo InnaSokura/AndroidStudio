@@ -15,12 +15,12 @@ public class BeerExport {
         else if (color.equals("amber"))
         {
             brands.add("Jack Amber ");
-            brands.add("ReMoose");
+            brands.add("Red Moose");
         }
         else if (color.equals("brown"))
         {
             brands.add("Jack Daniel ");
-            brands.add("Botinish");
+            brands.add("Bostinish");
         }
         else if (color.equals("dark"))
         {
