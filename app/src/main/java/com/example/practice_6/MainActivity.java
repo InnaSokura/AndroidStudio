@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.d("qwe", "create MainActivity: " + this.hashCode());
+        Log.d("qwe", "create MsainActivity: " + this.hashCode());
 
         tv = (TextView) findViewById(R.id.tv);
 
