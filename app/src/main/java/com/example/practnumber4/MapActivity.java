@@ -12,7 +12,7 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
 
     Button btnMap;
     EditText editCoord;
-    private final static String TAG = "MAP";
+    private final static String TAG = "MAPa";
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
