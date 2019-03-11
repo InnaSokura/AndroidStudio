@@ -18,6 +18,7 @@ public class MainActivity extends FragmentActivity implements WorkoutListFragmen
     public void itemClicked(long id) {
         View fragmentContainer = findViewById(R.id.fragment_container);
         if (fragmentContainer != null) {
+            //Этот код должен выполняться только в том случае, если фрейм присутствует в макете
             WorkoutDetailFragment details = new WorkoutDetailFragment();
             FragmentTransaction ft =  getSupportFragmentManager().beginTransaction();
             details.setWorkout(id);
